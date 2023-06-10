@@ -91,7 +91,7 @@ FROM orders;
 
 
 # Дополнительное задание 1:
-Код на flutter в пул реквесте
+Код на flutter в репозитории
 
 Учусь на мобильного разработчика
 
@@ -101,8 +101,8 @@ FROM orders;
 
 
 [![Добавление](./assets/add.png)](./assets/add.png)
-[![Редактирование](./assets/add.png)](./assets/add.png)
-[![Удаление](./assets/add.png)](./assets/add.png)
+[![Редактирование](./assets/edit.png)](./assets/edit.png)
+[![Удаление](./assets/delete.png)](./assets/delete.png)
 
 
 
