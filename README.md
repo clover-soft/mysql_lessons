@@ -107,4 +107,23 @@ FROM orders;
 
 
 # Дополнительное задание 2: 
-# К сожелниею не смог найти interview.sql !!
+```
+ALTER TABLE posts
+ADD CONSTRAINT posts_user_id_fkey
+FOREIGN KEY (user_id)
+REFERENCES users (id);
+```
+```
+SELECT title, full_text, user_id, users.login
+FROM posts, users
+WHERE posts.user_id = users.id;
+```
+```
+SELECT *
+FROM posts
+WHERE user_id = (
+    SELECT id
+    FROM users
+    WHERE login = 'Mikle'
+);
+```
